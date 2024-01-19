@@ -35,7 +35,7 @@ function RecentMatch({ match }) {
                   teams[0].result.outcome === 'win' ? ' text-amber-500' : ' text-red-700'
                 } text-center text-3xl font-extrabold`}
               >
-                {teams[0].result.outcome.toUpperCase()}
+                {teams[0].result.outcome}
               </p>
               <div className='flex items-center justify-center '>
                 <img
@@ -56,7 +56,7 @@ function RecentMatch({ match }) {
                   teams[1].result.outcome === 'win' ? 'text-blue-900' : 'text-red-900'
                 } text-center text-3xl font-extrabold`}
               >
-                {teams[1].result.outcome.toUpperCase()}
+                {teams[1].result.outcome}
               </p>
               <div className='flex items-center justify-center '>
                 <p className='text-2xl '> {teams[1].result.gameWins} </p>
